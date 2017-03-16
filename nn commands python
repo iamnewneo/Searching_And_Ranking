@@ -1,0 +1,6 @@
+import nn
+mynet.trainquery([wWorld,wBank],[uWorldBank,uRiver,uEarth],uWorldBank)
+uWorldBank,uRiver,uEarth=201,202,203
+wWorld,wRiver,wBank=101,102,103
+mynet=nn.searchnet('nn.db')
+
